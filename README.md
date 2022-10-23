@@ -23,3 +23,7 @@
 
 Not intended to be used in production since minification as been disabled.  
 For school project purpose only.
+
+# Pour Anto
+
+sheesh il faut encore mettre toutes les actions dans les slides et voir quelles actions on veut rendre disponible et aussi bloquer l'interface quand un action est en train de s'éffectuer

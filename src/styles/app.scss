@@ -284,3 +284,9 @@ body {
     pointer-events: none;
     animation-delay: 0.2s;
 }
+
+// nouvelle partie
+.zone__img:hover+.oui {
+    fill: #A6DC61;
+
+}

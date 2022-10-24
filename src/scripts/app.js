@@ -42,7 +42,7 @@ for (let i = 0; i < navi.length; i++) {
 //trigger hover de la map quand on hover les boutons
 
 // trigger hover du travail
-const travailHover = document.querySelectorAll('.command__button--travail')
+const travailHover = document.querySelectorAll('.zone--travail')
 const travailMap = document.querySelectorAll('.oui--travail')
 
 for (let u = 0; u < travailHover.length; u++) {
@@ -65,7 +65,7 @@ for (let u = 0; u < travailHover.length; u++) {
 
 
 // trigger hover du repos
-const reposHover = document.querySelectorAll('.command__button--repos')
+const reposHover = document.querySelectorAll('.zone--repos')
 const reposMap = document.querySelectorAll('.oui--repos')
 
 for (let u = 0; u < reposHover.length; u++) {
@@ -88,7 +88,7 @@ for (let u = 0; u < reposHover.length; u++) {
 }
 
 // trigger hover du détente
-const détenteHover = document.querySelectorAll('.command__button--détente')
+const détenteHover = document.querySelectorAll('.zone--détente')
 const détenteMap = document.querySelectorAll('.oui--détente')
 
 for (let u = 0; u < détenteHover.length; u++) {

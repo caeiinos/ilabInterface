@@ -1,8 +1,8 @@
 "use strict";
 
 // capacité selon la classe du user
-const classes = ['géologue', 'bucheron', 'mineur', 'fermier']
-const userClass = classes[1]
+const classes = ['géologue', 'bucheron', '', 'mineur', 'fermier']
+const userClass = classes[3]
 
 
 // nav et slider
@@ -12,7 +12,7 @@ const slide = document.querySelectorAll('.slider__element')
 
 // set la slide de base
 navi[classes.indexOf(userClass)].classList.add('action--active')
-slide[classes.indexOf(userClass)].classList.add('slider__element--show')
+slide[classes.indexOf(userClass)].classList.add('slider__element--show', 'slider__main')
 
 
 // capacité selon la classe du user

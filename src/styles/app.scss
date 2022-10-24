@@ -50,12 +50,14 @@ body {
 // svg isometric
 .oui {
     transition: all .2s;
+    position: relative;
     z-index: 40;
 }
 
 .oui:hover,
 .oui--active {
     transform: translateY(-20px);
+    position: relative;
     fill: #A6DC61;
     z-index: 50;
 }
